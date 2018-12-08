@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjectionContainer", "DependencyInjectionContainer\DependencyInjectionContainer.csproj", "{26477C0F-0A09-42C8-A81D-301A7F26E89A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIContainerUnitTests", "DIContainerUnitTests\DIContainerUnitTests.csproj", "{820AE8DE-7B14-4ACA-8E46-4AF6135F0CCB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{26477C0F-0A09-42C8-A81D-301A7F26E89A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26477C0F-0A09-42C8-A81D-301A7F26E89A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26477C0F-0A09-42C8-A81D-301A7F26E89A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26477C0F-0A09-42C8-A81D-301A7F26E89A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{820AE8DE-7B14-4ACA-8E46-4AF6135F0CCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{820AE8DE-7B14-4ACA-8E46-4AF6135F0CCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{820AE8DE-7B14-4ACA-8E46-4AF6135F0CCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{820AE8DE-7B14-4ACA-8E46-4AF6135F0CCB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
