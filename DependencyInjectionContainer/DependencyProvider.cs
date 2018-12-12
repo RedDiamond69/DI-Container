@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Concurrent;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,6 +9,9 @@ namespace DependencyInjectionContainer
 {
     public class DependencyProvider : IDependencyProvider
     {
+        private readonly IDependencyConfig _dependencyConfig;
+        private readonly ConcurrentDictionary<int, Stack<Type>> _recursionExcludeTypes;
+
         public DependencyProvider()
         {
         }
