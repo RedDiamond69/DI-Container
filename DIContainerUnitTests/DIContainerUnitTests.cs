@@ -125,7 +125,7 @@ namespace DIContainerUnitTests
         {
             _dependencyConfig.Register<ISimpleInterface, SimpleImplementation1>(true);
             _dependencyProvider = new DependencyProvider(_dependencyConfig);
-            ReferenceEquals(_dependencyProvider.Resolve<ISimpleInterface>().First(), 
+            Assert.AreSame(_dependencyProvider.Resolve<ISimpleInterface>().First(), 
                 _dependencyProvider.Resolve<ISimpleInterface>().First());
         }
 
