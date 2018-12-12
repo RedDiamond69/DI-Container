@@ -9,7 +9,7 @@ namespace DIContainerUnitTests.TestClasses
     public class GenericImplementation1<T> : IGenericInterface<T>
         where T : ISimpleInterface
     {
-        private T _field;
+        internal T _field;
 
         public GenericImplementation1(T dep)
         {
