@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DIContainerUnitTests.TestClasses
 {
-    public class SimpleImplementation1
+    public class SimpleImplementation1 : ISimpleInterface
     {
+
     }
 }

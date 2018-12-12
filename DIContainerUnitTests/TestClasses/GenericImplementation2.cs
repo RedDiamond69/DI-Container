@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace DIContainerUnitTests.TestClasses
 {
-    public class GenericImplementation2
+    public class GenericImplementation2<T> : IGenericInterface<T>
     {
+
     }
 }

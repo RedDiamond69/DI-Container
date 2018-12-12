@@ -8,5 +8,6 @@ namespace DIContainerUnitTests.TestClasses
 {
     public interface ISimpleInterface
     {
+
     }
 }

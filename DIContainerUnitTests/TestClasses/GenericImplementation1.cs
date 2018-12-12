@@ -6,7 +6,14 @@ using System.Threading.Tasks;
 
 namespace DIContainerUnitTests.TestClasses
 {
-    public class GenericImplementation1
+    public class GenericImplementation1<T> : IGenericInterface<T>
+        where T : ISimpleInterface
     {
+        private T _field;
+
+        public GenericImplementation1(T dep)
+        {
+            _field = dep;
+        }
     }
 }
