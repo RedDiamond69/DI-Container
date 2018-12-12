@@ -44,6 +44,7 @@
     <Compile Include="DependencyConfig\IDependencyConfig.cs" />
     <Compile Include="DependencyProvider.cs" />
     <Compile Include="IDependencyProvider.cs" />
+    <Compile Include="ImplementationInfo\ImplementationInfo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
